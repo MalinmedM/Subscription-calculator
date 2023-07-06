@@ -1,1 +1,3 @@
-// Your JS code here
+var subTypeElement = document.querySelector(".subscription-select");
+
+var SubDurationElement = document.querySelector(".duration-select");
