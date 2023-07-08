@@ -9,11 +9,13 @@ var subDuration = 1;
 subTypeElement.addEventListener("change", function (e) {
   subType = e.target.value;
   //console.log(subType)
+  updateSubscriptionsDiv();
 });
 
 subDurationElement.addEventListener("change", function (e) {
   subDuration = Number(e.target.value);
   //console.log(subDuration);
+  updateSubscriptionsDiv();
 });
 
 // Function Cost calculation
