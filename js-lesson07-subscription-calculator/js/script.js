@@ -8,7 +8,7 @@ var subDuration = 1;
 // Creating change event listeners
 subTypeElement.addEventListener("change", function (e) {
   subType = e.target.value;
-  //console.log(subType)
+  //console.log(subType);
   updateSubscriptionDiv();
 });
 
